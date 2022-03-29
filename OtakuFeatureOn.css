@@ -1,0 +1,239 @@
+/*
+Theme Name: OtakuFeatureOn
+Theme URI: https://otakugame.fr
+Version: 1.0
+Description: <a href="http://alx.media/themes/featureon/">FeatureOn</a> is the favorite Otakugame.fr theme ^^ !
+Author: Alexander Agnarson (customed by SuzuKube)
+Author URI: http://alx.media
+Template: featureon
+Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+Text Domain: featureon
+
+	Copyright: (c) 2019 Alexander "Alx" Agnarson
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+@media only screen and (min-width: 720px){
+	#nav-topbar .nav>li>a:hover, #nav-topbar .nav>li:hover>a {
+		background: none;
+		color: #ffeb00;
+	}
+}
+
+#header {
+    background: #181818 url(/images/otakugame-all-star.jpg) no-repeat;
+}
+
+#header-top {
+    background: none;
+    border-bottom: 1px solid #272727;
+}
+
+#header-bottom {
+    background: none;
+}
+
+.toggle-search {
+    z-index: 101;
+    border-left: 1px solid #272727;
+    border-right: 1px solid #272727;
+}
+
+#header-top .social-links .social-tooltip {
+    color: #777;
+}
+
+#header-top .social-links .social-tooltip:hover {
+    color: #eee;
+}
+
+.post-comments {
+    background: #c80000;
+    color: #fff;
+}
+
+.post-comments > span:before {
+    border-right: 4px solid #770404;
+    border-top: 4px solid #730707;
+}
+
+#nav-mobile.nav-container {
+    background: #181818;
+    border-bottom: 1px solid #272727;
+}
+
+.wp-block-button__link {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 719px){
+	#nav-mobile .nav li>a:hover {
+		color: #fff;
+	}
+}
+
+@media only screen and (max-width: 719px){
+	#nav-mobile .nav li a {
+		color: #d0d0d0;
+		border-top: 1px solid #272727;
+	}
+}
+
+
+@media only screen and (min-width: 720px) {
+	#nav-header .nav > li.current_page_item > a, #nav-header .nav > li.current-menu-item > a, #nav-header .nav > li.current-menu-ancestor > a, #nav-header .nav > li.current-post-parent > a {
+		background: #860000;
+		color: #FFF!important;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	#nav-topbar .nav>li {
+		border-right: none;
+		border-left: none;
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 720px){
+	#nav-topbar .nav>li>a {
+		padding: 10px 25px 10px 0px;
+		color : #FFF;
+	}
+}
+
+#nav-topbar.nav-container {
+    background: none;
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.pub-google { margin-bottom:20px; }
+
+/*Correction bug Google Chrome*/
+.main-inner { overflow-x: visible; }
+.col-3cm { overflow-x: hidden; }
+/*
+ * Google Pub
+*/
+#adtimearticle{
+	margin-bottom:20px;
+	text-align: center;
+}
+
+/*
+Cookie-law
+*/
+
+#cookie-law {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index:9999;
+}
+#cookie-law > div {
+  background:#fff;
+  opacity:0.95;
+  width:75% !important;
+  padding:20px;
+  max-width: 600px;
+  margin:auto;
+  display: inline-block;
+  text-align: left !important;
+  border-radius:5px 5px 0 0;
+  -moz-border-radius:5px 5px 0 0;
+  -webkit-border-radius:5px 5px 0 0;
+  -o-border-radius:5px 5px 0 0;
+  box-shadow: 0px 0px 20px #A1A1A1;
+  -webkit-box-shadow: 0px 0px 20px #A1A1A1;
+  -moz-box-shadow: 0px 0px 20px #A1A1A1;
+  -o-box-shadow: 0px 0px 20px #A1A1A1;
+  position:relative;
+}
+#cookie-law h4 { padding: 0 !important; margin:0 0 8px !important; text-align:left !important; font-size:13px !important; color:#444;
+}
+#cookie-law p { padding: 0 !important; margin:0 !important; text-align:left !important; font-size:12px !important; line-height: 18px !important; color:#888;
+}
+a.close-cookie-banner {
+  position: absolute;
+  top:0px;
+  right:0px;
+  margin:10px;
+  display:block;
+  width:20px;
+  height:20px;
+  background:url(/images/close.png) no-repeat;
+  background-size: 20px !important;
+}
+a.close-cookie-banner span {
+  display:none !important;
+}
+/*
+Correction WpDiscuz
+*/
+.lity-hide {
+  display: none;
+}
+/* Correction Social Plus */
+.social-count-plus .flat a {
+    border-radius: 3px;
+}
+/*Correction tags*/
+.post-tags {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.post-tags span {
+    font-size: 12px;
+    display: inline;
+}
+.author-bio {
+    margin-top: 40px;
+}
+/*Remove 2eme bannière de Yourchannel*/
+.yrc-banner:last-child{ display:none; }
+.yrc-brand {border-radius: 20px 4px;}
+.yrc-load-more-button {border-radius: 20px 4px;}
+.yrc-name > span {display:none!important;}
+/*eshop*/
+.eshop> a {
+    color: #593196!important;
+}
+/*amazon*/
+.amazon> a {
+    color: #e28e11!important;
+}
+/*promo*/
+.promo> a {
+    color: #c80000!important;
+}
+/*RSS Flux*/
+.dark .widget_rss ul li a {
+    color: #ccd2d8!important;
+}
+
+/*Pub pour Amazon*/
+.AmazonContext {
+    margin: 20px 0 20px 0;
+    padding: 0 15px;
+}
+.AmazonContext p {
+    font-size:9px;
+	text-align:right;
+}
+.AmazonTitle {
+    font-size:12px!important;
+	text-align:left!important;
+	font-weight:bold;
+	color:#FF9900;
+}
+.search-expand {
+    top: 5px;
+}
+.amazon-product-columns-container .amazon-product-title {
+    margin-bottom: 0px;
+}
+.amazon-product-columns-container .amazon-product-thumbnail {
+    padding: 0 1em;
+}
