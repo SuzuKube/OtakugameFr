@@ -1,0 +1,1 @@
+DELETE FROM `wpis_postmeta` WHERE `meta_value` LIKE '{{unknown}}'
