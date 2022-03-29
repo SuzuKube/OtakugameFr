@@ -1,0 +1,1 @@
+DELETE FROM `otk_options` WHERE `option_name` LIKE ('%aalb_update_table_batch%')
